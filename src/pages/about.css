@@ -1,0 +1,43 @@
+.about-div {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  align-items: center;
+}
+
+.photo2 {
+  width: 400px;
+  height: 400px;
+  border-radius: 5px;
+}
+
+.about-name {
+  color: var(--Heading-color, #282938);
+  font-family: Roboto;
+  font-size: 21.333px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  padding-bottom: 5px;
+}
+
+.about-title {
+  color: var(--Heading-color, #282938);
+  font-family: Roboto;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  padding-bottom: 30px;
+}
+
+.about-text {
+  color: var(--Body, #1c1e53);
+  font-family: Roboto;
+  font-size: 19.6px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  width: 700px;
+}

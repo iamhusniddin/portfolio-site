@@ -1,0 +1,131 @@
+.portfolio {
+  margin-bottom: 100px;
+}
+
+.portfolio-text {
+  color: var(--Heading-color, #282938);
+
+  font-family: Roboto;
+  font-size: 21.333px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  padding-bottom: 20px;
+}
+
+.protfolio-div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.portfolio-title {
+  color: var(--Heading-color, #282938);
+  font-family: Roboto;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 76.8px */
+}
+
+.portfolio-btn {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 21.333px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  border-radius: 10.667px;
+  background: #e62872;
+  box-shadow: 0px 1.33333px 2.66667px 0px rgba(16, 24, 40, 0.05);
+  padding: 13px 20px;
+}
+
+.portfolio-btn:hover {
+  background-color: #a40441;
+}
+
+.portfolio-btn:active {
+  background-color: #650128;
+}
+
+.portfolio-btn-img {
+  width: 32px;
+  height: 32px;
+}
+
+.card-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 400px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 10px 14px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 0px 10px 14px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 0px 10px 14px rgba(34, 60, 80, 0.2);
+}
+
+.card:hover {
+  transform: scale(1.02);
+  transition: 7s;
+  transition-duration: 0.7s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-property: all;
+}
+
+.card-img {
+  width: 400px;
+  height: 270px;
+}
+
+.card-inform {
+  padding-left: 30px;
+}
+
+.card-title {
+  color: var(--Heading-color, #282938);
+  font-family: Roboto;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  padding-top: 30px;
+}
+
+.card-text {
+  color: var(--Body, #1c1e53);
+  font-family: Roboto;
+  font-size: 16.333px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  padding-top: 10px;
+}
+
+.card-btn {
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #5e3bee;
+}
+
+.card-btn:hover {
+  color: #5e3bee;
+}
+
+.card-btn:active {
+  color: #282938;
+}
+
+.siteLogo {
+  width: 12px;
+  height: 12px;
+  margin-left: 5px;
+}

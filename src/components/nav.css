@@ -1,0 +1,70 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: inherit;
+  top: 0px;
+  height: 70px;
+  width: 92%;
+  position: fixed;
+  background-color: #f5fcff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 19px 26px 2px rgba(35, 138, 217, 0.2);
+  -moz-box-shadow: 0px 19px 26px 2px rgba(35, 138, 217, 0.2);
+  box-shadow: 0px 19px 30px 2px rgba(35, 138, 217, 0.2);
+}
+
+.logo_div {
+  width: 186px;
+  height: 40px;
+}
+
+.logo {
+  width: 100%;
+  cursor: pointer;
+}
+
+.nav-list {
+  width: 480px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item {
+  cursor: pointer;
+  color: var(--Body, #1c1e53);
+  font-family: Roboto;
+  font-size: 21.333px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.nav-item:hover {
+  color: #5e3bee;
+}
+
+.nav-item:active {
+  color: #1c1e53;
+}
+
+.nav-btn {
+  color: var(--Primary, #5e3bee);
+  font-family: Roboto;
+  font-size: 21.333px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  border: 1px solid #5e3bee;
+  padding: 13px;
+}
+
+.nav-btn:hover {
+  color: white;
+  background-color: #5e3bee;
+}
+
+.nav-btn:active {
+  color: #5e3bee;
+  background-color: #1c1e53;
+}

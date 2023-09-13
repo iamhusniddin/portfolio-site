@@ -1,0 +1,49 @@
+.footer-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  height: 100px;
+  margin-bottom: 50px;
+}
+
+.footer-img-div {
+  width: 186px;
+  height: 40px;
+}
+
+.footer-img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.footer-list {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-item {
+  cursor: pointer;
+  color: var(--Black, #000);
+  font-family: Roboto;
+  font-size: 21.333px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.footer-item:hover {
+  color: #5e3bee;
+}
+
+.icons-div {
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons:hover {
+  cursor: pointer;
+  color: #5e3bee;
+}
